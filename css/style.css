@@ -7,3 +7,56 @@
 .container-full-width{
   width: 100%;
 }
+
+[class*="col-"]{
+  background-color: green;
+  min-height: 100px;
+  border: solid black 1px;
+
+}
+
+.centra-head-foot{
+  padding: 0 10%;
+}
+
+/* header */
+
+header{
+  padding-top: 100px;
+}
+#nav-large{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
+}
+
+#nav-mobile{
+  display: none;
+}
+
+#jumbo{
+  padding-top: 50px;
+  min-height: 300px;
+}
+
+/* corpo pagina */
+
+/* SEZIONE PRODOTTI */
+.centra-sez1{
+  padding: 0 5%;
+}
+
+/* SEZIONE HOW TO */
+
+.centra-sez2{
+  padding-top: 10%;
+}
+
+
+/* SEZIONE SOCIAL */
+
+#icons-social{
+  padding-top: 10%;
+}
