@@ -9,21 +9,38 @@
 }
 
 [class*="col-"]{
-  background-color: green;
+  /* background-color: green; */
   min-height: 100px;
   border: solid black 1px;
 
+}
+
+img{
+  max-width: 100%;
 }
 
 .centra-head-foot{
   padding: 0 10%;
 }
 
-/* header */
+.text-black{
+  color: black;
+}
+
+.text-white{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+/******************** header *****************/
 
 header{
   padding-top: 100px;
 }
+
 #nav-large{
   position: fixed;
   top: 0;
@@ -32,16 +49,50 @@ header{
   z-index: 900;
 }
 
+#logo{
+  letter-spacing: 5px;
+}
+
+#menu-large li, #lingue li{
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+}
+
+#lingue .bordo-destro{
+  border-right: solid black 1px;
+  padding-right: 10px;
+}
+
 #nav-mobile{
   display: none;
 }
 
 #jumbo{
-  padding-top: 50px;
-  min-height: 300px;
+  padding-top: 100px;
+  min-height: 500px;
+  background-image: url(../img/jumbo.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
 }
 
-/* corpo pagina */
+#jumbo h1{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+#jumbo h2{
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#jumbo #app-store img{
+  padding-top: 20px;
+  height: 80px;
+  width: 150px;
+}
+/******************* corpo pagina **************/
 
 /* SEZIONE PRODOTTI */
 .centra-sez1{
@@ -64,7 +115,7 @@ header{
 
 
 
-/* footer */
+/**************** footer ***************************/
 
 #store{
   padding-left: 40%;
