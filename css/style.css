@@ -133,14 +133,30 @@ header{
 
 
 
-
-
 /* SEZIONE HOW TO */
 
 .centra-sez2{
   padding-top: 10%;
+  position: relative;
 }
 
+#bgimg-how-to{
+  background-image: url(../img/anziano.jpg);
+  background-size: cover;
+  height: 500px;
+
+}
+
+#slide-img-how-to{
+  position: relative; 
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+#slide-img-how-to img{
+  height: 510px;
+}
 
 
 /* SEZIONE SOCIAL */
