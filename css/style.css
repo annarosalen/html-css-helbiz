@@ -10,8 +10,8 @@
 
 [class*="col-"]{
   /* background-color: green; */
-  min-height: 100px;
-  border: solid black 1px;
+  /* min-height: 100px; */
+  /* border: solid white 1px; */
 
 }
 
@@ -53,6 +53,9 @@ header{
   left: 0;
   width: 100%;
   z-index: 900;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
 }
 
 #logo{
@@ -93,10 +96,9 @@ header{
   padding-bottom: 20px;
 }
 
-#jumbo #app-store img{
-  padding-top: 20px;
-  height: 80px;
-  width: 150px;
+#store-jumbo{
+  padding-left: 35%;
+  padding-right: 35%;
 }
 /******************* corpo pagina **************/
 
@@ -245,18 +247,58 @@ header{
 
 /* SEZIONE SOCIAL*/
 
-#icone-social{
+#social{
   margin-top: 10%;
   background-image: url(../img/pachwork.jpg);
+  padding: 150px;
 }
 
+#testo-social{
+  background-color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 50px;
+}
+
+.icone-social li{
+  list-style: none;
+  display: inline-block;
+}
 
 
 
 
 /**************** footer ***************************/
 
+footer{
+  background-color: black;
+}
+
+.categories a{
+  line-height: 40px;
+  color: grey;
+
+}
+
+#contenitore-socialandcopyright{
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
+}
+
+#icone-social-centrali{
+  text-align: center;
+  padding: 20px;
+}
+
+#conditions li{
+  padding-top: 20px;
+}
+#conditions a{
+  color: white;
+}
+
 #store{
+  padding-top: 30px;
   padding-left: 40%;
   padding-right: 40%;
 }
