@@ -110,6 +110,7 @@ header{
   padding: 96px;
   background-color: #fafafa;
   text-align: center;
+  margin: 0 20px;
 }
 
 .prodotti h1{
@@ -144,26 +145,111 @@ header{
   background-image: url(../img/anziano.jpg);
   background-size: cover;
   height: 500px;
-
 }
 
 #slide-img-how-to{
-  position: relative; 
+  position: relative;
   top: 50%;
-  transform: translateY(-50%);
+  transform: translateY(-60%);
   text-align: center;
 }
 
 #slide-img-how-to img{
-  height: 510px;
+  max-height: 510px;
+}
+
+#text-left{
+  padding-left: 250px;
+  margin-top: 50px;
+}
+
+#text-left h2{
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+#text-right{
+  margin-top: 50px;
+  line-height: 35px;
+}
+
+#text-right p{
+  font-size: 20px;
 }
 
 
-/* SEZIONE SOCIAL */
-
-#icons-social{
-  padding-top: 10%;
+/* SEZIONE SMART MOBILITY */
+.centra-sez3{
+  padding: 0 5%;
 }
+
+#first-image {
+  background-image: url(../img/helbiz-green.jpg);
+  background-size:cover;
+}
+
+#text-smartmobility{
+  text-align: center;
+  padding: 130px;
+}
+
+#text-smartmobility h2{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+#text-smartmobility p{
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+#text-smartmobility a{
+  font-size: 25px;
+
+}
+
+#left-app{
+  background-image: url(../img/iphone-map.png);
+  background-color: #313c4c;
+  background-size: 300px, 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-bottom: 500px;
+}
+
+.text-app-and-city h2{
+  font-size: 40px;
+  padding: 50px 0 ;
+}
+
+.text-app-and-city p{
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.text-app-and-city a{
+  font-size: 20px;
+  margin-right: 20px;
+}
+#right-city{
+  background-image: url(../img/washington.jpg);
+  text-align: center;
+  background-size: cover;
+  padding-bottom: 500px;
+}
+
+
+
+
+/* SEZIONE SOCIAL*/
+
+#icone-social{
+  margin-top: 10%;
+  background-image: url(../img/pachwork.jpg);
+}
+
 
 
 
